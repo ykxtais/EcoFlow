@@ -2,8 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .error {
-    @apply text-xl;
-  }
+@layer components{
+    .error {
+        @apply text-xl;
+      }
+
+    .cabecalho {
+        @apply flex items-center justify-between px-6 py-4 bg-white shadow-md;
+
+        & > div:first-child {
+            @apply flex items-center space-x-2; 
+          }
+
+        h1 {
+           @apply text-xl font-bold text-gray-800; 
+        }
+
+        & ul {
+            @apply flex space-x-8;
+          }
+      
+        & a {
+            @apply text-xl hover:underline;
+        }
+    }
+
+    .btnlogin {
+        @apply px-4 py-2 text-white bg-teal-400 rounded hover:bg-teal-500;
+    }
+
 }
