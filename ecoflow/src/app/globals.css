@@ -142,4 +142,40 @@
     .btnfaleve {
       @apply px-6 py-3 text-lg font-semibold bg-white text-[#29ad4a] rounded hover:bg-gray-100;
     }
+
+    .pagsuporte {
+      @apply min-h-screen bg-gray-800 text-white flex items-center justify-center px-6;
+    }
+
+    .suportebox {
+      @apply flex flex-col lg:flex-row w-full max-w-4xl;
+    }
+
+    .formsuporte {
+      @apply bg-gray-900 p-6 rounded-md shadow-md w-full lg:w-1/2;
+    }
+
+    .labelsuporte {
+      @apply block text-sm font-medium mb-1;
+    }
+
+    .btnsuporte {
+      @apply px-4 py-2 bg-white text-gray-800 rounded hover:bg-gray-200
+    }
+
+    .btnbox{
+      @apply flex justify-between mt-4;
+    }
+
+    .contatesuporte{
+      @apply w-full lg:w-1/2 lg:pl-8 flex flex-col justify-center;
+
+      h1 {
+        @apply text-3xl font-bold;
+      }
+
+      & p {
+        @apply mt-4 text-gray-300;
+      }
+    }
 }
