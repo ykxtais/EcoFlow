@@ -27,8 +27,12 @@
         }
     }
 
+    .rodape {
+      @apply text-black text-lg justify-end p-2 items-center text-center bg-white;
+    }
+
     .btnlogin {
-        @apply px-4 py-2 text-white bg-teal-400 rounded hover:bg-teal-500;
+        @apply px-4 py-2 text-white bg-[#28c951] rounded hover:bg-[#30b952];
     }
     
     .bg-cover {
@@ -77,5 +81,65 @@
 
     .btnvoltareve {
       @apply mt-6 bg-gray-200 hover:bg-gray-300 text-black px-6 py-3 rounded-lg shadow-md;
+    }
+
+    .homeeco {
+      @apply relative h-[80vh] flex flex-col items-center justify-center bg-cover bg-center bg-[url('/img/home.png')];
+
+      h1 {
+        @apply text-4xl font-bold mb-6 text-center text-white;
+      }
+    }
+
+    .quadrohome {
+      @apply flex items-center bg-white/90  p-6 rounded-lg shadow-lg max-w-4xl;
+
+      p {
+        @apply text-lg text-black max-w-md;
+      }
+    }
+
+    .desempenhoeco {
+      @apply py-16 bg-gray-100;
+
+      h1 {
+        @apply text-3xl font-bold text-center mb-8;
+      }
+    }
+
+    .desempenhobox {
+      @apply space-y-8 max-w-4xl mx-auto
+    }
+
+    .desempenholeft {
+      @apply flex items-center gap-6 bg-white p-4 rounded-lg shadow-md flex-row;
+
+      p {
+        @apply text-base text-black max-w-md;
+      }
+    }
+
+    .desempenhoright {
+      @apply flex items-center gap-6 bg-white p-4 rounded-lg shadow-md flex-row-reverse;
+
+      p {
+        @apply text-base text-black max-w-md;
+      }
+    }
+
+    .faleve{
+      @apply py-16 bg-[#2ab64d] rounded-lg text-white text-center;
+
+      h1 {
+        @apply text-4xl font-bold mb-6;
+      }
+
+      & p {
+        @apply text-lg max-w-2xl mx-auto mb-8;
+      }
+    }
+
+    .btnfaleve {
+      @apply px-6 py-3 text-lg font-semibold bg-white text-[#29ad4a] rounded hover:bg-gray-100;
     }
 }
