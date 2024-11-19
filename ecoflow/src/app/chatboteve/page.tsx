@@ -11,7 +11,7 @@ export default function ChatBotEve() {
   useEffect(() => {
     const initializeSession = async () => {
       try {
-        const session = await createSession("", ""); 
+        const session = await createSession(); 
         setSessionId(session);
       } catch (error) {
         console.error("Erro ao inicializar sessão:", error);
