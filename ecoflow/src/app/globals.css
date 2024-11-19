@@ -198,4 +198,60 @@
         @apply mt-4 text-gray-300;
       }
     }
+
+    .paginforma {
+      @apply bg-sky-300 text-white flex flex-col md:flex-row items-center justify-between p-8;
+    }
+
+    .informainicio {
+      @apply md:w-1/2 text-center md:text-left;
+
+      h1 {
+        @apply text-4xl font-bold mb-4;
+      }
+
+      & p {
+        @apply text-lg;
+      }
+    }
+
+    .ecoenergias{
+      @apply bg-white py-12 px-6;
+
+      h1 {
+        @apply text-center text-4xl font-bold mb-8 text-sky-800;
+      }
+    }
+
+    .energiasbox {
+      @apply flex flex-col md:flex-row justify-around gap-8;
+    }
+
+    .quadrosenergias{
+      @apply bg-white shadow-lg rounded-lg p-6 text-center max-w-md mx-auto flex flex-col items-center;
+
+      h2 {
+        @apply text-xl font-bold mb-2;
+      }
+    }
+
+    .ecoajudar{
+      @apply bg-sky-200 py-12 px-6 relative border-8 border-transparent rounded-lg bg-clip-padding bg-gradient-to-r from-sky-300 to-sky-400;
+
+      h1 {
+        @apply text-center text-4xl font-bold mb-8 text-white;
+      }
+    }
+
+    .ajudarbox{
+      @apply flex flex-col gap-8;
+    }
+
+    .quadrosajudarleft{
+      @apply flex flex-col md:flex-row items-center gap-6 bg-white shadow-lg rounded-lg p-6;
+    }
+
+    .quadroajudaright{
+      @apply flex flex-col md:flex-row-reverse items-center gap-6 bg-white shadow-lg rounded-lg p-6;
+    }
 }
