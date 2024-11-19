@@ -98,6 +98,40 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="propeco"> 
+          <Image
+            src="/img/ddom.png"
+            alt="Imagem de fundo"
+            width={800}
+            height={400}
+            className="w-full h-auto"
+          />
+          <div className="propquadrobox">
+            <div className="propquadros">
+              <h2>Transforme o Futuro com Reciclagem Inteligente</h2>
+              <p>
+                Com a tecnologia avançada de triagem da EcoFlow, você pode contribuir para um mundo mais sustentável e eficiente.
+                Descubra como a reciclagem pode ser mais inteligente e impactar positivamente o meio ambiente!
+              </p>
+            </div>
+            <div className="propquadros">
+              <h2>Inovação que Impulsiona a Sustentabilidade</h2>
+              <p>
+                A EcoFlow está liderando a revolução verde com soluções inovadoras que não apenas melhoram a eficiência energética,
+                mas também reduzem o desperdício e aumentam o reaproveitamento de materiais. Junte-se à mudança!
+              </p>
+            </div>
+            <div className="propquadros">
+              <h2>Eficiência Energética e Menos Impacto Ambiental</h2>
+              <p>
+                Com a EcoFlow, a reciclagem de materiais se torna mais eficiente, reduzindo o consumo de energia e o impacto ambiental.
+                Apoie a transição para uma indústria mais verde e contribua para um futuro mais sustentável!
+              </p>
+            </div>
+          </div>
+      </div>
+
+
       <div className="faleve">
         <h1>Inteligência Artificial Eve</h1>
         <p>
