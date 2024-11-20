@@ -281,7 +281,7 @@
 }
 
 .btnvoltareq {
-  @apply px-4 py-2 bg-white text-black rounded hover:bg-gray-200
+  @apply px-4 py-2 bg-white text-black rounded hover:bg-gray-200;
 }
 
 .social {
@@ -310,4 +310,32 @@
 
 .membersimg {
   @apply rounded-full mb-3;
+}
+
+.auth {
+  @apply flex flex-col items-center justify-center min-h-screen bg-[#73B7D0] p-4;
+
+  h1 {
+      @apply text-2xl font-bold mb-4 text-white;
+  }
+
+  & form {
+      @apply bg-white p-6 rounded-lg shadow-md w-full max-w-sm;
+  }
+}
+
+.bordauth {
+  @apply border p-2 w-full rounded;
+}
+
+.btnenter {
+  @apply text-white bg-[#2C7E9C] hover:bg-[#436886] py-2 rounded w-full;
+}
+
+.btncreate {
+  @apply text-center mt-4 cursor-pointer text-[#2C7E9C] hover:text-[#436886];
+}
+
+.btnvoltarauth {
+  @apply px-4 py-2 bg-slate-100 text-black rounded hover:bg-slate-200 mt-6;
 }
