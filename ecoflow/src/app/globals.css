@@ -257,8 +257,13 @@
 }
 
 .equipe {
-  @apply min-h-screen bg-[#73B7D0] flex flex-col items-center justify-center;
+  @apply min-h-screen flex flex-col items-center justify-center;
+  background-image: url('/img/fundoep.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
+
 
 .equipebase {
   @apply flex justify-center text-white items-center max-w-5xl mx-auto p-4;
@@ -289,7 +294,7 @@
 }
 
 .btnreposi {
-  @apply bg-[#2C7E9C] text-white px-3 py-1 w-36 rounded hover:bg-[#436886] text-center;
+  @apply bg-[#2c9c5e] text-white px-3 py-1 w-36 rounded hover:bg-[#30a866] text-center;
 }
 
 .members {

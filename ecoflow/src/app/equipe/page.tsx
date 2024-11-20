@@ -27,9 +27,26 @@ export default function Equipe() {
         </div>
 
 
+
         <div className="members">
+        <div className="membersec">
+            <Image src="/img/intais.jpg" alt="Taís" width={120} height={120} className="membersimg" />
+            <h3>Taís</h3>
+            <p>Turma: 1TDSPM</p>
+            <p>Rm: 557553</p>
+            <div className="social">
+              <a href="https://github.com/nyxtais" target="_blank" rel="noopener noreferrer">
+                <Image src="/img/github.png" alt="github" width={24} height={24} />
+              </a>
+              <a href="https://www.linkedin.com/in/ta%C3%ADsx" target="_blank" rel="noopener noreferrer">
+                <Image src="/img/linkedin.png" alt="linkedin" width={24} height={24} />
+              </a>
+            </div>
+          </div>
+
+
           <div className="membersec">
-            <Image src="/img/iris.jpeg" alt="Iris" width={120} height={120} className="membersimg" />
+            <Image src="/img/iniris.jpg" alt="Iris" width={120} height={120} className="membersimg" />
             <h3>Iris</h3>
             <p>Turma: 1TDSPM</p>
             <p>Rm: 557728</p>
@@ -43,20 +60,7 @@ export default function Equipe() {
             </div>
           </div>
 
-          <div className="membersec">
-            <Image src="/img/tais.jpeg" alt="Taís" width={120} height={120} className="membersimg" />
-            <h3>Taís</h3>
-            <p>Turma: 1TDSPM</p>
-            <p>Rm: 557553</p>
-            <div className="social">
-              <a href="https://github.com/nyxtais" target="_blank" rel="noopener noreferrer">
-                <Image src="/img/github.png" alt="github" width={24} height={24} />
-              </a>
-              <a href="https://www.linkedin.com/in/ta%C3%ADsx" target="_blank" rel="noopener noreferrer">
-                <Image src="/img/linkedin.png" alt="linkedin" width={24} height={24} />
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
       
