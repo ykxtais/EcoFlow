@@ -1,7 +1,7 @@
 <h2>→ FIAP - Global Solution 2024</h2>
 
 <h1 align="center">
-  EcoFlow
+  🍀 EcoFlow
 </h1> 
 
 > [!NOTE]
@@ -31,4 +31,4 @@
 
 ## ➤ Notas Usuário
 > [!NOTE]
-> Elementos Interativos: Cadastro, Login ##!
+> Elementos Interativos: Cadastro, Login, Formulário de Suporte e Chatbot Eve!
