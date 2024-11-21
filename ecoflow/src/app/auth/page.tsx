@@ -32,7 +32,7 @@ export default function Auth() {
       if (isLogin) {
         // Login
         if (email && senha) {
-          const response = await fetch("linkloginapijava", {
+          const response = await fetch("http://localhost:8080/global_war/api/usuarios/login", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -53,7 +53,7 @@ export default function Auth() {
       } else {
         // Cadastro
         if (nome && email && cpf && contato && senha) {
-          const response = await fetch("linkcadastroapijava", {
+          const response = await fetch("http://localhost:8080/global_war/api/usuarios/cadastro?", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
