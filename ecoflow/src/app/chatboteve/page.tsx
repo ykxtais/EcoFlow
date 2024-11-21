@@ -46,6 +46,7 @@ export default function ChatBotEve() {
         <h2>Sugestões de perguntas:</h2>
         <ul>
           <li>- Quais são os tipos de resíduos?</li>
+          <li>- Quais materiais são e não são recicláveis?</li>
           <li>- Como posso ajudar com o futuro?</li>
           <li>- Quais os tipos de energia sustentáveis?</li>
         </ul>
