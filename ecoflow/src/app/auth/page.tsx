@@ -41,12 +41,12 @@ export default function Auth() {
           });
 
           if (response.ok) {
-            await response.json();
-            alert("Login realizado com sucesso!");
-            navigate.push('/'); 
+            const responseData = await response.text(); 
+            alert(responseData); 
+            navigate.push('/');
           } else {
             setError('Erro no login: verifique as credenciais.');
-          }
+          }          
         } else {
           setError('Preencha o email e a senha.');
         }
