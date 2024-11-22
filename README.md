@@ -32,3 +32,26 @@
 ## ➤ Notas Usuário
 > [!NOTE]
 > Elementos Interativos: Cadastro, Login, Formulário de Suporte e Chatbot Eve!
+
+## ➤ Para Executar o Projeto
+1. Abra o terminal do visual studio code <br/>
+2. Navegue até o diretório <br/>
+```
+cd ecoflow
+```
+<br/>
+
+3. Instale as dependencias <br/>
+```
+npm i
+```
+<br/>
+
+4. Para visualizar o projeto execute <br/>
+```
+npm run dev
+```
+<br/>
+
+## ⚠️ ➤ ATENÇÃO
+Caso ocorra erro "404" ao navegar para a página de Energias, por favor cheque o nome da pasta <br/> que deve estar como "informa", caso esteja "Informa" basta renomea-la ou utilizar _localhost:3000/informa_, agradecemos a compreensão.
