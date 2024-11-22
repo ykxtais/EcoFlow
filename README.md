@@ -52,3 +52,6 @@ npm i
 npm run dev
 ```
 <br/>
+
+## ⚠️ ➤ ATENÇÃO
+Caso ocorra erro "404" ao navegar para a página de Energias, por favor cheque o nome da pasta <br/> que deve estar como "informa", caso esteja "Informa" basta renomea-la ou utilizar _localhost:3000/informa_, agradecemos a compreensão.
