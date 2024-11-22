@@ -27,7 +27,7 @@
 > 
 > <a href="#">Vídeo</a>
 >
-> <a href="#">Deploy Vercel</a>
+> <a href="https://ecoflow-bice.vercel.app/">Deploy Vercel</a>
 
 ## ➤ Notas Usuário
 > [!NOTE]
