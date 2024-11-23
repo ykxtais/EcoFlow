@@ -25,7 +25,7 @@
 ## ➤ Projeto
 > [!NOTE]
 > 
-> <a href="#">Vídeo</a>
+> <a href="https://youtube.com/watch?v=R4eJk0KaPxA&si=Oot8rkNzEVPmMrQd">Vídeo</a>
 >
 > <a href="https://ecoflow-bice.vercel.app/">Deploy Vercel</a>
 
@@ -34,7 +34,7 @@
 > Elementos Interativos: Cadastro, Login, Formulário de Suporte e Chatbot Eve!
 
 ## ⚠️ ➤ ATENÇÃO
-Caso ocorra erro "404" ao navegar para a página de Energias, por favor cheque o nome da pasta <br/> que deve estar como "informa", caso esteja "Informa" basta renomea-la ou utilizar _localhost:3000/informa_, agradecemos a compreensão.
+Caso ocorra erro "404" ao navegar para a página de Energias, por favor cheque o nome da pasta <br/> que deve estar como "informa", caso esteja "Informa" basta renomea-la, agradecemos a compreensão.
 ##
 
 ## ➤ Para Executar o Projeto
