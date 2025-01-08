@@ -33,10 +33,6 @@
 > [!NOTE]
 > Elementos Interativos: Cadastro, Login, Formulário de Suporte e Chatbot Eve!
 
-## ⚠️ ➤ ATENÇÃO
-Caso ocorra erro "404" ao navegar para a página de Energias, por favor cheque o nome da pasta <br/> que deve estar como "informa", caso esteja "Informa" basta renomea-la, agradecemos a compreensão.
-##
-
 ## ➤ Para Executar o Projeto
 1. Abra o terminal do visual studio code <br/>
 2. Navegue até o diretório <br/>
@@ -57,4 +53,7 @@ npm run dev
 ```
 <br/>
 
+## ⚠️ ➤ ATENÇÃO
+Caso ocorra erro "404" ao navegar para a página de Energias, por favor cheque o nome da pasta <br/> que deve estar como "informa", caso esteja "Informa" basta renomea-la, agradecemos a compreensão.
+##
 
