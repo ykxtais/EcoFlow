@@ -15,12 +15,10 @@
 
 ## ➤ Integrantes e dados
 > [!NOTE]
-> Nome: Iris Tavares Alves
-> RM: 557728 Turma: 1TDSPM
-> 
+> Nome: Iris Tavares Alves 
 > 
 > Nome: Taís Tavares Alves
-> RM: 557553 Turma: 1TDSPM
+
 
 ## ➤ Projeto
 > [!NOTE]
