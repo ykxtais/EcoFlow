@@ -19,7 +19,7 @@ export default function Equipe() {
           </p>
           
           <div className="btnsequipe">
-            <a href="https://github.com/nyxtais/EcoFlow.git" target="_blank" rel="noopener noreferrer" className="btnreposi">Repositório</a>
+            <a href="https://github.com/ykxtais/EcoFlow" target="_blank" rel="noopener noreferrer" className="btnreposi">Repositório</a>
             <Link href="/">
                 <button className="btnvoltareq">Voltar</button>
             </Link>
@@ -35,7 +35,7 @@ export default function Equipe() {
             <p>Turma: 1TDSPM</p>
             <p>Rm: 557553</p>
             <div className="social">
-              <a href="https://github.com/nyxtais" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ykxtais" target="_blank" rel="noopener noreferrer">
                 <Image src="/img/github.png" alt="github" width={24} height={24} />
               </a>
               <a href="https://www.linkedin.com/in/ta%C3%ADsx" target="_blank" rel="noopener noreferrer">
